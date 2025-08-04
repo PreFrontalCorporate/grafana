@@ -58,7 +58,7 @@ jobs:
             PLUGINS_GRAFANA_API_KEY=core-plugins-build-and-release:PLUGINS_GRAFANA_API_KEY
             PLUGINS_GCOM_TOKEN=core-plugins-build-and-release:PLUGINS_GCOM_TOKEN
       - name: 'Authenticate to Google Cloud'
-        uses: 'google-github-actions/auth@6fc4af4b145ae7821d527454aa9bd537d1f2dc5f'
+        uses: 'google-github-actions/auth@b7593ed2efd1c1617e1b0254da33b86225adb2a5'
         with:
           credentials_json: '${{ env.PLUGINS_GOOGLE_CREDENTIALS }}'
       - name: 'Set up Cloud SDK'
