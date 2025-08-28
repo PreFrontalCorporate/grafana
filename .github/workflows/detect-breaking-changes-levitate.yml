@@ -162,7 +162,7 @@ jobs:
           project_id: 'grafanalabs-global'
 
       - name: 'Set up Cloud SDK'
-        uses: 'google-github-actions/setup-gcloud@6189d56e4096ee891640bb02ac264be376592d6a'
+        uses: 'google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db'
         with:
           version: '>= 363.0.0'
           project_id: 'grafanalabs-global'
